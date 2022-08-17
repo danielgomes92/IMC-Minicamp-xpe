@@ -14,19 +14,23 @@
       <h1>IMC - Índice de Massa Corporal</h1>
     </header>
  
+    <!-- &lt;p&gt; <<--- um dos caracteres especiais para colocar a tag diretamente -->
+
     <p>
-      <label for="input-weight">Informe o seu peso (kg): </label>
+      <label for="input-weight">Informe o seu peso (kg):&nbsp; </label> <br> <!--&nbsp (non-breaking space)-->
       <input id="input-weight" type="text">
     </p>
     
     <p>
-      <label for="input-height">Informe a sua altura (m): </label>
+      <label for="input-height">Informe a sua altura (m): </label> <br>
     <input id="input-height" type="text">
     </p>
 
     <p>
       <button id="button-calculate-imc">Calcular  IMC</button>
     </p>
+
+    <p id="paragraph-result">O IMC desses dados é <strong>25,02</strong></p>
 
 
       <!-- o defer é tipo booleano sobre o funcionamento do html -->
