@@ -9,10 +9,10 @@ Roteiro - imc
 HTML: 
 (x) Montar HTML com 2 inputs do tipo texto e 1 botão
 (x) Utilizar id's nos inputs e botão
-(x) Inserir div para conter o resultado do cálculo
+(x) Inserir P para conter o resultado do cálculo
 
 CSS:
-() Estilizar inputs de forma que fiquem com o mesmo tamanho
+(x) Estilizar inputs de forma que fiquem com o mesmo tamanho
 
 JavaScript:
 () Criar função start
